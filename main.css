@@ -7,15 +7,13 @@ body {
     right: 0;
     height: 100vh;
     width: 100vw;
-    background-color: rgba(221, 35, 175, 0.301);
+    background-color: whitesmoke;
     position: fixed;
 }
 
 input {
     border-color: aquamarine;
     border-radius: 5px;
-    color: white;
-    background-color: rgba(219, 196, 214, 0.103);
 }
 
 
@@ -94,7 +92,6 @@ input {
     padding: 5%;
     font-size: x-large;
     font-style: italic;
-    color: rgb(223, 239, 241);
 }
 
 #imgChange {
