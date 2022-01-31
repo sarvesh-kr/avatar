@@ -1,0 +1,109 @@
+/* HCKME */
+body {
+    font-family: cursive;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(221, 35, 175, 0.301);
+    position: fixed;
+}
+
+input {
+    border-color: aquamarine;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(219, 196, 214, 0.103);
+}
+
+
+#inBody {
+    height: 25%;
+    width: 20%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10%;
+    position: fixed;
+    color: whitesmoke;
+    transition: width 2s, height 2s;
+    overflow: hidden;
+    border-radius: 60px;
+}
+
+#inBody:hover {
+    
+    height: 25%;
+    width: 40%;
+    transform: width 2s, height 2s;
+}
+
+#inHead {
+    height: 40%;
+    width: 100%;
+    border: 0px;
+    border-style: double;
+    text-align: right;
+    /* padding: 10px; */
+    border-radius: 10%;
+    background-color: aquamarine;
+    float: right;
+    font-size: x-large;
+    overflow: hidden;
+}
+
+#buttonOpen {
+    height: 5%;
+    width: 10%;
+    margin-top: 0.25%;
+    border-radius: 10%;
+    border-width: 0px;
+    background-color: aquamarine;
+    font-weight: bold;
+    font-size:x-large;
+    color: whitesmoke;
+    margin-left: 2px;
+}
+
+#buttonOpen:hover {
+    height: 10%;
+    width: 15%;
+    transition: width 2s, height 4s;
+}
+
+#buttonClose {
+    border-radius: 5%;
+    border-width: 0px;
+    float: inline-end;
+}
+
+#inScreen {
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    background-color: aquamarine;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#inText {
+    padding: 5%;
+    font-size: x-large;
+    font-style: italic;
+    color: rgb(223, 239, 241);
+}
+
+#imgChange {
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+html {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+  }
