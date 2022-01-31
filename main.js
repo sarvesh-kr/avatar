@@ -73,7 +73,7 @@ function openDiv() {
     document.querySelector("#inBody").appendChild(div2);
     div2.innerHTML += '&nbsp;Hi&nbsp;';
     div2.innerHTML += `${userName}`;
-    div2.innerHTML += `,&nbsp;how's your day?<br>(Just right click and save your AVATAR) <br> <img src="img.png" height="40%" width="40%" id="imgChange">`;
+    div2.innerHTML += `,&nbsp;how's your day?<br>(Just right-click on it and save your AVATAR) <br> <img src="img.png" height="40%" width="40%" id="imgChange">`;
     if (userName!="") {
         document.getElementById("imgChange").src = `https://joeschmoe.io/api/v1/${userName}`;
     }
