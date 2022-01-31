@@ -20,13 +20,13 @@ input {
 
 
 #inBody {
-    height: 25%;
+    height: 50%;
     width: 20%;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    margin: 10%;
+    margin: 5%;
     position: fixed;
     color: whitesmoke;
     transition: width 2s, height 2s;
@@ -36,13 +36,13 @@ input {
 
 #inBody:hover {
     
-    height: 25%;
-    width: 40%;
+    height: 75%;
+    width: 50%;
     transform: width 2s, height 2s;
 }
 
 #inHead {
-    height: 40%;
+    height: 30%;
     width: 100%;
     border: 0px;
     border-style: double;
@@ -88,6 +88,7 @@ input {
     overflow: hidden;
     text-align: center;
     padding-top: 10px;
+    font-size: larger;
 }
 
 #inText {
@@ -98,7 +99,7 @@ input {
 }
 
 #imgChange {
-    margin-top: 5px;
+    margin-top: 10%;
     border-radius: 10px;
 }
 
